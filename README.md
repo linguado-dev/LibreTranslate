@@ -742,3 +742,8 @@ console.log(await res.json());
 3.73.129.48
 ```
 
+# VALIABLE LANGUAGES:
+```
+http://3.73.129.48:5000/languages
+```
+
