@@ -716,3 +716,29 @@ This work is largely possible thanks to [Argos Translate](https://github.com/arg
 ## Trademark
 
 See [Trademark Guidelines](https://github.com/LibreTranslate/LibreTranslate/blob/main/TRADEMARK.md)
+
+
+
+
+# REQUEST EXAMPLE:
+```
+const res = await fetch("http://3.73.129.48:5000/translate", {
+	method: "POST",
+	body: JSON.stringify({
+		q: "Hey, my name is Gabriel Cantarin",
+		source: "ur",
+		target: "pt",
+		format: "text",
+		alternatives: 3,
+		api_key: ""
+	}),
+	headers: { "Content-Type": "application/json" }
+});
+
+console.log(await res.json());
+```
+# SSH
+```
+3.73.129.48
+```
+
